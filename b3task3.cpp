@@ -66,7 +66,7 @@ void romanToArabic () {
     cout << outputArabic << endl;
 }
 
-int main() {
+int main () {
     int mode;
 
     cout << "1 - arabic to roman\n2 - roman to arabic\n";
