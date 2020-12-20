@@ -69,9 +69,6 @@ void romanToArabic () {
 int main() {
     int mode;
 
-    const int arabic[] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-    string roman[] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-
     cout << "1 - arabic to roman\n2 - roman to arabic\n";
     cin >> mode;
     while (mode != 1 && mode != 2) {
