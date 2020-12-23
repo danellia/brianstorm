@@ -50,7 +50,7 @@ void romanToArabic () {
 
     cout << "\nin arabic numerals: ";
     for (i = inputRoman.length() - 1; i >= 0; --i) {
-        currentRoman = inputRoman[i]; 
+        currentRoman = inputRoman[i];
         for (j = 12; j >= 0; j -= 2) {
             if (currentRoman == roman[j]) {
                 if (arabic[j] < prevArabic) {
@@ -60,7 +60,7 @@ void romanToArabic () {
                     prevRoman = roman[j];
                     prevArabic = arabic[j];
                 }
-            } 
+            }
         }
     }
     cout << outputArabic << endl;
@@ -69,7 +69,7 @@ void romanToArabic () {
 int main () {
     int mode;
 
-    cout << "1 - arabic to roman\n2 - roman to arabic\n";
+    cout << "1 - Arabic to roman\n2 - Roman to arabic\n";
     cin >> mode;
     while (mode != 1 && mode != 2) {
         cout << "Error! Try again\n";
